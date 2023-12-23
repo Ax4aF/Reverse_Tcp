@@ -33,4 +33,4 @@
 	Install the required modules by running [python3 -m pip install -r requirements.txt]
 
 # creator
-	This tool was created by 'Achraf Kemkhou'
+	Achraf Kemkhou
