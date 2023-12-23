@@ -12,7 +12,6 @@ import struct
 import threading
 import shutil
 
-from cryptography.fernet import Fernet
 from pyftpdlib.authorizers import DummyAuthorizer
 from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
