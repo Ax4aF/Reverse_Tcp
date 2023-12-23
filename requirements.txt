@@ -1,0 +1,6 @@
+opencv-python
+psutil
+pyftpdlib
+struct
+pickle
+termcolor
