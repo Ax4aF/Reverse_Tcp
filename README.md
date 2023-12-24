@@ -24,7 +24,7 @@
 	* profiles: get wifi passwords
 	* shutdown/power off: turn off the target machine
 	* reboot/restart: reboot the target machine
-	* ftp --start: start ftp server (you can download the target files from your browser)
+	* ftp --start: start ftp server
 	* reset: reset connection
 	* exit/quit/close: close the server only
 
